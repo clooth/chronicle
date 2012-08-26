@@ -4,9 +4,13 @@ http    = require 'http'
 server  = http.createServer(app)
 io      = require('socket.io').listen(server)
 
+server_path = "#{__dirname}"
+shared_path = "#{server_path}/../shared"
+client_path = "#{server_path}/../client"
+
 server.listen 8100
 
-app.use '/assets', express.static "#{__dirname}/assets"
+app.use '/assets', express.static "#{shared_path}/assets"
 
 # Main index page
 app.get '/', (request, response) ->
