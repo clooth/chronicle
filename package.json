@@ -1,0 +1,14 @@
+{
+  "name": "chronicle",
+  "description": "An mmorpg game built with nodejs",
+  "author": "Nico Hämäläinen <nico@bender.fi>",
+  "version": "0.0.0",
+  "license": "MIT",
+
+  "dependencies": {
+    "express"  : "3.x",
+    "socket.io": "0.9.x"
+  },
+
+  "engine": "node >= 0.8.8"
+}
