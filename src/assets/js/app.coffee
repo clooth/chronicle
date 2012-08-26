@@ -1,3 +1,6 @@
+#= require requestanimframe
+#= require logo_animation
+
 canvas  = document.getElementById 'game'
 context = canvas.getContext '2d'
 
@@ -27,10 +30,15 @@ class KeyMaster
 
         socket.send @Keys[keyCode]
 
+
 # Main game class
 class Chronicle
     constructor: (@players) ->
 
+class Chronicle.Player
+    constructor: (x, y) ->
+        @x = x
+        @y = y
 
 socket.on 'news', (data) ->
     console.log data

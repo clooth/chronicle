@@ -6,8 +6,12 @@
   "license": "MIT",
 
   "dependencies": {
-    "express"  : "3.x",
-    "socket.io": "0.9.x"
+    "connect-assets": "2.3.X",
+    "coffee-script" : "1.3.X",
+    "stylus"        : "0.29.X",
+    "jade"          : "0.27.X",
+    "express"       : "3.x",
+    "socket.io"     : "0.9.x"
   },
 
   "engine": "node >= 0.8.8"
