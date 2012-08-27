@@ -1,0 +1,8 @@
+{
+	"name":      "a2",
+	"tileSize":  32,
+	"imageName": "a2.png",
+	"tiles": [
+		{"name": "grass_plain", "coords": [0, 0], "size": 32}
+	]
+}

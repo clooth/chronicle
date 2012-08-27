@@ -1,0 +1,8 @@
+{
+	"name": "Noob World",
+	"size": [50, 40],
+	"tilesets": ["a2"],
+	"tiles": [
+		"grass_plain", "grass_plain"
+	]
+}
